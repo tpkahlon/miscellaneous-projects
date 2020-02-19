@@ -1,0 +1,19 @@
+/* Styles */
+
+:root {
+  --color-primary: red;
+  --color-secondary: blue;
+  --color-tertiary: green;
+}
+
+.site-header {
+  background: var(--color-primary, red);
+}
+
+.site-content {
+  background: var(--color-secondary, blue);
+}
+
+.site-footer {
+  background: var(--color-tertiary, green);
+}

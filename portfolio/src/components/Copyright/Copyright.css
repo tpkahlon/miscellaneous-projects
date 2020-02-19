@@ -1,0 +1,34 @@
+.footer {
+  margin: 0;
+  text-align: center;
+  padding: 5rem 1.25rem;
+  background: var(--color-quaternary);
+  font-family: var(--font-family-primary);
+}
+
+.footer__text {
+  margin: 0 0 1rem;
+  padding: 0;
+  color: var(--color-black);
+}
+
+.footer__bold {
+  font-weight: bold;
+}
+
+.footer__text a {
+  font-style: italic;
+  text-decoration: none;
+  transition: all .4s ease;
+  color: var(--color-black);
+}
+
+.footer__text a span {
+  font-size: .6rem;
+}
+
+.footer__text a:hover,
+.footer__text a:focus,
+.footer__text a:active {
+  color: var(--color-white);
+}

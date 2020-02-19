@@ -1,0 +1,71 @@
+include ../_includes/menus/navigation
+.container
+  .row
+    .col-sm-12
+      h3 Example of TypeScript below
+      small.msg
+      hr
+      h3 Example of Button (Extended) approach in SCSS
+      button(type="button") Button
+      hr
+      h3 Example of a Bootstrap Selectpicker library
+      select.selectpicker
+        option Mustard
+        option Ketchup
+        option Relish
+      hr
+      h3 Example of a Pollyfill Image
+      img(srcset='images/img_jpg.jpg 1x, images/img_jpg@2x.jpg 2x', alt='Image of a box')
+      hr
+      h3 Example of a Media Element library
+      video
+        source(src="media/VIDEO/sample.mp4")
+      hr
+      audio
+        source(src="media/AUDIO/sample.mp3")  
+      hr 
+      h3 Example of a Bootstrap Validator library
+      form(data-toggle='validator', role='form')
+        .form-group
+          label.control-label(for='inputName') Name
+          input#inputName.form-control(type='text', placeholder='Cina Saffary', required='')
+        .form-group.has-feedback
+          label.control-label(for='inputTwitter') Twitter
+          .input-group
+            span.input-group-addon @
+            input#inputTwitter.form-control(type='text', pattern='^[_A-z0-9]{1,}$', maxlength='15', placeholder='1000hz', required='', aria-describedby="inputGroupSuccess1Status")
+          span.glyphicon.form-control-feedback(aria-hidden='true')
+          span#inputGroupSuccess1Status.sr-only (success)
+          .help-block.with-errors Hey look, this one has feedback icons!
+        .form-group
+          label.control-label(for='inputEmail') Email
+          input#inputEmail.form-control(type='email', placeholder='Email', data-error='Bruh, that email address is invalid', required='')
+          .help-block.with-errors
+        .form-group
+          label.control-label(for='inputPassword') Password
+          input#inputPassword.form-control(type='password', data-minlength='6', placeholder='Password', required='')
+          .help-block Minimum of 6 characters
+        .form-group
+          label.control-label(for='inputPassword') Confirm Password
+          input#inputPasswordConfirm.form-control(type='password', data-match='#inputPassword', data-match-error="Whoops, these don't match", placeholder='Confirm', required='')
+          .help-block.with-errors
+        .form-group
+          .radio
+            label
+              input(type='radio', name='underwear', required='')
+              | Boxers
+          .radio
+            label
+              input(type='radio', name='underwear', required='')
+              | Briefs
+        .form-group
+          .checkbox
+            label
+              input#terms(type='checkbox', data-error='Before you wreck yourself', required='')
+              | Check yourself
+            .help-block.with-errors
+        .form-group
+          button.btn.btn-primary(type='submit') Submit       
+      hr
+  p
+    small Copyright &copy; All rights reserved.

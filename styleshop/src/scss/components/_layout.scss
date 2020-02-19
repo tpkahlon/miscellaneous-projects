@@ -1,0 +1,55 @@
+// LAYOUT.scss
+
+// HTML
+html {
+  font-size: 16px;
+}
+
+// BODY
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// RESPONSIVE MEDIA
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+// CONTAINER BREAKPOINTS
+// .container {
+//   @media #{$small} {
+//     width: 100%;
+//     max-width: 100%;
+//   }
+//   @media #{$small__up} {
+//     max-width: 36rem;
+//   }
+//   @media #{$medium__up} {
+//     max-width: 48rem;
+//   }
+//   @media #{$large__up} {
+//     max-width: 62rem;
+//   }
+//   @media #{$xlarge__up} {
+//     max-width: 75rem;
+//   }
+// }
+
+// GRIDS (Feel free to change these)
+// .column {
+//   @include make-col-ready();
+//   @include make-col(12);
+// }
+// .site-blog {
+//   &-column {
+//     @include make-col-ready();
+//     @include make-col(4);
+//   }
+// }

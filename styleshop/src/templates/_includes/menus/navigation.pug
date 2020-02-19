@@ -1,0 +1,27 @@
+nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark.shadow-lg
+  .container
+    a.navbar-brand.d-flex(href='/')
+      span.sr-only StyleShop
+      img(src='images/favicon.png' height='30' alt='StyleShop logo')
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#primaryMenu', aria-controls='primaryMenu', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #primaryMenu.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item(class=(bodyClass === 'home' ? 'active' : ''))
+          a.nav-link(href='/')
+            | Home
+            span.sr-only (current)
+        li.nav-item(class=(bodyClass === 'about' ? 'active' : ''))
+          a.nav-link(href='/about.html') About
+        li.nav-item(class=(bodyClass === 'contact' ? 'active' : ''))
+          a.nav-link(href='/contact.html') Contact
+        li.nav-item.dropdown
+          a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false', class=(bodyClass !== '' && bodyClass !== ' ' && bodyClass.includes('services') ? 'active' : ''))
+            | Services
+          .dropdown-menu(aria-labelledby='navbarDropdown')
+            a.dropdown-item(href='/web-design.html', class=(bodyClass === 'services--web-design' ? 'active' : '')) Web design
+            a.dropdown-item(href='/web-development.html', class=(bodyClass === 'services--web-development' ? 'active' : '')) Web development
+            a.dropdown-item(href='/graphic-design.html', class=(bodyClass === 'services--graphic-design' ? 'active' : '')) Graphic design
+            a.dropdown-item(href='/web-hosting.html', class=(bodyClass === 'services--web-hosting' ? 'active' : '')) Web hosting
+            a.dropdown-item(href='/seo.html', class=(bodyClass === 'services--seo' ? 'active' : '')) SEO
+            a.dropdown-item(href='/marketing.html', class=(bodyClass === 'services--marketing' ? 'active' : '')) Marketing

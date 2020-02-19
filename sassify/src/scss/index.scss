@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+// ADD GOOGLE FONTS CDN HERE:
+// Check this link for more info: https://fonts.google.com/
+// 1. ROBOTO, OPEN SANS
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+// BASE STYLES (UNIVERSAL)
+@import "components/base";
+
+// BASE STYLES (CUSTOM BOOTSTRAP ONLY)
+@import "core/custom";
+
+// ADDON STYLES (FOR BOOTSTRAP ONLY)
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/print";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/grid";
+
+// BOOTSTRAP (ADDITIONAL COMPONENTS)
+// (Import any component e.g. NAVBAR and override their settings in VARIABLES file)
+// @import "../../node_modules/bootstrap/scss/buttons";
+// @import "../../node_modules/bootstrap/scss/jumbotron";
+
+// VENDOR STYLES
+// 1. FontAwesome
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
+// APP STYLES
+@import "components/layout";
+@import "components/module";
+@import "components/state";
+@import "components/theme";
+
+// RESPONSIVE STYLES (MEDIA QUERIES ONLY)
+@media #{$xlarge} {
+  @import "queries/xlarge";
+}
+@media #{$large} {
+  @import "queries/large";
+}
+@media #{$medium} {
+  @import "queries/medium";
+}
+@media #{$small} {
+  @import "queries/small";
+}

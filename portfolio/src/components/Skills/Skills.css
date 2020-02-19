@@ -1,0 +1,44 @@
+.skills {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 1.25rem;
+  background: var(--color-primary);
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__list-item {
+  font-size: 0;
+  margin: 1.25rem;
+}
+
+.skills__list-item svg {
+  font-size: 3rem;
+  transition: all .4s ease;
+}
+
+.skills__list-item svg:hover,
+.skills__list-item svg:active,
+.skills__list-item svg:focus {
+  cursor: zoom-in;
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 768px) {
+  .skills {
+    padding: 7rem 1.25rem;
+  }
+  .skills__list-item {
+    margin: 1.5rem;
+  }
+  .skills__list-item svg {
+    font-size: 5rem;
+  }
+}

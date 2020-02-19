@@ -1,0 +1,50 @@
+// BASE.scss
+
+// COLORS
+$white: #fff;
+$black: #000;
+$red: #f00;
+$blue: #00f;
+$green: #0f0;
+$grey-AA: #242a2e;
+$grey-AB: #7d8a94;
+$grey-AC: #869598;
+$white-AA: #f3f7fa;
+
+// FONT MIXIN DECLARATION
+@mixin font-size($sizeValue: 16) {
+  font-size: ($sizeValue) + px;
+  font-size: ($sizeValue / 16) + rem;
+}
+
+// FONT WEIGHTS VARS
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-medium-x: 600;
+$fw-bold: 700;
+$fw-bold-x: 800;
+$fw-black: 900;
+
+// SELECTION COLOR DECLARATION
+// https://css-tricks.com/almanac/selectors/s/selection
+*::-moz-selection,
+*::selection {
+  color: white;
+  background-color: black;
+}
+
+// MEDIA QUERIES VARS
+// Check this link for more information: http://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints
+// 36rem = 576px
+// 48rem = 768px
+// 62rem = 992px
+// 75rem = 1200px
+$small: "(max-width: 36rem)";
+$medium: "(max-width: 48rem)";
+$large: "(max-width: 62rem)";
+$xlarge: "(max-width: 75rem)";
+$small__up: "(min-width: 36rem)";
+$medium__up: "(min-width: 48rem)";
+$large__up: "(min-width: 62rem)";
+$xlarge__up: "(min-width: 75rem)";

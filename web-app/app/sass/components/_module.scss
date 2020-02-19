@@ -1,0 +1,136 @@
+// Module Styles.
+
+// Declaration of Widget
+.widget {
+	a {
+		color: $white;
+	}
+  @extend .panel, .panel-default;
+  header {
+    @extend .panel-heading;
+  }
+  section {
+    @extend .panel-body;
+  }
+  footer {
+    @extend .panel-footer;
+  }
+}
+
+// Declaration of Well
+.highlight {
+	@extend .well;
+	color: $white;
+}
+
+// Declaration of Tree
+.tree {
+	@extend .list-group;
+	.branch {
+		@extend .list-group-item;
+		.fruit {
+			@extend .badge;
+		}
+	}
+}
+
+// Declaration of Form Elements
+// Input
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	@extend .form-control;
+	@media #{$phablet} {
+		margin-bottom: 10px;
+	}
+}
+// Input with Left aligned icon
+.input-wli {
+	position: relative;
+	.icon-wrap {
+		position: absolute;
+		left: 10px;
+		z-index: 1;
+		color: $grey;
+		line-height: 34px;
+	}
+	input {
+		padding-left: 35px;
+	}
+}
+// Input with Right aligned icon
+.input-wri {
+	position: relative;
+	.icon-wrap {
+		position: absolute;
+		z-index: 1;
+		right: 10px;
+		color: $grey;
+		line-height: 34px;
+	}
+	input {
+		padding-right: 35px;
+	}
+}
+// Select
+select {
+}
+.bootstrap-select {
+	width: 100% !important;
+	@media #{$phablet} {
+		margin-bottom: 15px;
+	}
+}
+// Button
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	@extend .btn, .btn-default, .btn-primary;
+	@media #{$phablet} {
+		margin-bottom: 10px;
+	}
+}
+.ir {
+	.fa {
+		margin-left: 8px;
+	}
+}
+.il {
+	.fa {
+		margin-right: 8px;
+	}
+}
+
+// Declaration of Carousel
+.carousel {
+	img {
+		width: 100%;
+	}
+}
+
+// Declaration of Tables
+table {
+	width: 100%;
+	&.tablesaw {
+		// @extend .table;
+		@extend .table-bordered;
+		@extend .table-striped;
+		@extend .table-hover;
+		// @extend .table-condensed;
+	}
+}

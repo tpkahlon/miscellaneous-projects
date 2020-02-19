@@ -1,0 +1,29 @@
+{
+  "name": "reactstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://tpkahlon.github.io/reactstrap",
+  "scripts": {
+    "prebuild": "shx rm -rf dist/*",
+    "dev": "yarn run prebuild && parcel public/*.html",
+    "build": "parcel build public/*.html --public-url .",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-plugin-react": "^7.14.2",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-eslint": "^1.0.7",
+    "parcel-plugin-imagemin": "^3.0.0",
+    "parcel-plugin-inliner": "^1.0.10",
+    "sass": "^1.22.4",
+    "shx": "^0.3.2"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.8.6"
+  }
+}

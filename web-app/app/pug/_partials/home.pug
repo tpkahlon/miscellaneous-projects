@@ -1,0 +1,183 @@
+nav.navbar.navbar-default
+  .container
+    //- Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='#') Brand
+    //- Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.active
+          a(href='index.html') Home
+    //- .navbar-collapse
+  //- .container
+.container
+  .stack
+    .block-12
+      p Let's code this application.
+      a.button(href='http://google.ca') Start
+      a.button.il(href='http://google.ca')
+        i.fa.fa-bars(aria-hidden='true')
+        | Button with Left icon
+      a.button.ir(href='http://google.ca') Button with Right icon
+        i.fa.fa-bars(aria-hidden='true')
+  hr
+  p
+    strong Widget / Panel
+  .stack
+    .block-4
+      .widget
+        header
+          h1 I am a Bootstrap Panel.
+        section This is my introduction.
+        footer
+          a(href='http://google.ca') Check this link
+    .block-4
+      .widget
+        header
+          h1 I am a Bootstrap Panel.
+        section This is my introduction.
+        footer
+          a(href='http://google.ca') Check this link
+    .block-4
+      .widget
+        header
+          h1 I am a Bootstrap Panel.
+        section This is my introduction.
+        footer
+          a(href='http://google.ca') Check this link
+  hr
+  p
+    strong Highlight / Well
+  .stack
+    .block-12
+      .highlight I am a Bootstrap WELL.
+  hr
+  p
+    strong Tree / List Group
+  .stack
+    .block-12
+      ul.tree
+        li.branch I am a branch
+          span.fruit 200
+        li.branch
+          a(href='http://google.com') I am a branch
+        li.branch
+          a(href='http://google.com') I am a branch
+        li.branch
+          a(href='http://google.com') I am a branch
+        li.branch
+          a(href='http://google.com') I am a branch
+  hr
+  p
+    strong Forms
+  .stack
+    .block-3
+      input.type-init(type='text', placeholder='Enter something')
+    .block-3
+      select
+        option Mustard
+        option Ketchup
+        option Relish
+    .block-3
+      .input-wli
+        span.icon-wrap
+          i.fa.fa-search(aria-hidden='true')
+        input.type-init(type='text', placeholder='Enter something')
+    .block-3
+      .input-wri
+        span.icon-wrap
+          i.fa.fa-search(aria-hidden='true')
+        input.type-init(type='text', placeholder='Enter something')
+  hr
+  p
+    strong Carousel
+  .stack
+    .block-12
+      #sample-carousel.carousel.slide(data-ride='carousel')
+        //- Indicators
+        ol.carousel-indicators
+          li.active(data-target='#sample-carousel', data-slide-to='0')
+          li(data-target='#sample-carousel', data-slide-to='1')
+        //- Wrapper for slides
+        .carousel-inner(role='listbox')
+          .item.active
+            img(src='http://placehold.it/1400x500', alt='Demo')
+            .carousel-caption
+              | Slide A
+          .item
+            img(src='http://placehold.it/1400x500', alt='Demo')
+            .carousel-caption
+              | Slide B
+        //- Controls
+        a.left.carousel-control(href='#sample-carousel', role='button', data-slide='prev')
+          span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+          span.sr-only Previous
+        a.right.carousel-control(href='#sample-carousel', role='button', data-slide='next')
+          span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+          span.sr-only Next
+  hr
+  p
+    strong Tablesaw
+  .stack
+    .block-12
+      table.tablesaw.tablesaw-swipe(data-tablesaw-mode="swipe", data-tablesaw-minimap)
+        thead
+          tr
+            th(scope="col", data-tablesaw-priority="persist") H1
+            th(scole="col", data-tablesaw-priority="1") H1
+            th(scole="col", data-tablesaw-priority="2") H2
+            th(scole="col", data-tablesaw-priority="3") H3
+            th(scole="col", data-tablesaw-priority="4") H4
+            th(scole="col", data-tablesaw-priority="5") H5
+            th(scole="col", data-tablesaw-priority="6") H6
+            th(scole="col", data-tablesaw-priority="7") H7
+            th(scole="col", data-tablesaw-priority="8") H8
+        tbody
+          tr
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+          tr
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+          tr
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+          tr
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+  hr
+  p
+    small Copyright &copy; All rights reserved.

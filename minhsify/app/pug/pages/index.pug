@@ -1,0 +1,25 @@
+extends ../_layouts/default
+
+block title
+	title Home - Application
+
+block vars
+	- var bodyClass = 'home';
+
+block metas
+	- var siteAuthor = 'Damon Bauer (Forked by Tej Kahlon)'
+	- var siteDescription = 'A few words about this landing page'
+	- var facebookSiteName = 'Application'
+	- var facebookURL = 'http://application.io'
+	- var facebookType = 'Article'
+	- var facebookTitle = 'Application Title'
+	- var facebookDescription = 'A few words about this landing page for Facebook users'
+	- var twitterCard = 'Summary'
+	- var twitterTitle = 'A few words about this landing page for Twitter users'
+	- var twitterDescription = 'A few words about this landing page for Twitter users'
+	- var canonicalURL = 'http://application.io'
+	- var siteENURL = 'http://application.io/en'
+	- var siteFRURL = 'http://application.io/fr'
+
+block content
+	include ../_partials/index

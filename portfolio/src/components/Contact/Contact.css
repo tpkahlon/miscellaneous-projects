@@ -1,0 +1,124 @@
+.contact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--color-tertiary);
+}
+
+.contact__container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background: var(--color-tertiary);
+  font-family: var(--font-family-primary);
+}
+
+.contact__info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 4rem 1.25rem 3rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__thumb {
+  flex: 1;
+}
+
+.contact__info-email a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  word-break: break-all;
+  text-decoration: none;
+  transition: all .4s ease;
+  color: var(--color-black);
+}
+
+.contact__info-email a:focus,
+.contact__info-email a:hover,
+.contact__info-email a:active {
+  color: var(--color-white);
+}
+
+.contact__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.contact__list-item {
+  margin: 1rem;
+}
+
+.contact__list-item a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.contact__list-item a:link,
+.contact__list-item a:focus,
+.contact__list-item a:active {
+  text-transform: none;
+}
+
+.contact__list-item svg {
+  width: 100%;
+  height: 100%;
+  min-width: 2rem;
+  min-height: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
+  transition: all .4s ease;
+}
+
+.contact__list-item svg:hover,
+.contact__list-item svg:active,
+.contact__list-item svg:focus {
+  cursor: pointer;
+  color: var(--color-white);
+}
+
+.contact__thumb {
+  position: relative;
+}
+
+.contact__thumb::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(132, 220, 198, 0.75);
+  box-shadow: inset 0px 0px 15px 10px rgba(0,0,0,0.25);
+}
+
+.contact__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__container {
+    flex-direction: row;
+  }
+  .contact__info {
+    flex: 1 1 50%;
+    padding: 5rem 1.25rem;
+  }
+  .contact__thumb {
+    flex: 1 1 50%;
+  }
+  .contact__info {
+    padding: 5rem 1.25rem;
+  }
+}

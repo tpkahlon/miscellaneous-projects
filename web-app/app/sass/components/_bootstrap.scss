@@ -1,0 +1,30 @@
+$brand-primary: $color-primary !default;
+$font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$icon-font-path: 'if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/") !default';
+
+// --- Widget | Panel
+$panel-bg:                    $color-primary !default;
+$panel-inner-border:          darken($color-primary, 5%) !default;
+$panel-footer-bg:             $color-primary !default;
+$panel-default-heading-bg:    $color-primary !default;
+$panel-default-text:          $white !default;
+$panel-default-border:        darken($color-primary, 5%) !default;
+$panel-primary-text:          $white !default;
+$panel-primary-border:        $brand-primary !default;
+$panel-primary-heading-bg:    $brand-primary !default;
+
+// --- Highlight | Well
+$well-bg:                     darken($color-primary, 20%) !default;
+$well-border:                 darken($color-primary, 25%) !default;
+
+// --- Badges
+$badge-color:                 $white !default;
+$badge-link-hover-color:      $white !default;
+$badge-bg:                    $color-primary !default;
+$badge-active-color:          lighten($color-primary, 10%) !default;
+$badge-active-bg:             $white !default;
+
+// --- Input
+$input-bg:                       $white !default;
+$input-border-focus:             $color-primary !default;
+$input-color-placeholder:        lighten($grey, 20%) !default;

@@ -1,0 +1,46 @@
+// Declaration of HTML, BODY
+html, body {
+  font-size: 100%;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Declaration of Container
+.container {
+  @include container-fixed();
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
+}
+
+// Declaration of Row
+.stack {
+  @include make-row();
+}
+
+// Declaration of Column
+.block-3 {
+  @include make-xs-column(12);
+  @include make-sm-column(3);
+}
+.block-4 {
+  @include make-xs-column(12);
+  @include make-sm-column(4);
+}
+.block-6 {
+  @include make-xs-column(12);
+  @include make-sm-column(6);
+}
+.block-12 {
+  @include make-xs-column(12);
+  @include make-sm-column(12);
+}

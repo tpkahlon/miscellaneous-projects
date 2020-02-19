@@ -1,0 +1,54 @@
+doctype html
+html(lang="en")
+    head
+        //- Title TAG
+        block title
+        //- Meta TAGS
+        //- Please refer to Josh Buchea's repository: https://github.com/joshbuchea/head for a complete set of tags that can go inside HEAD tag.
+        block metas
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(http-equiv="Content-Type", content="text/html; charset=UTF-8")
+        //- Viewports
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no")
+        meta(name="HandheldFriendly", content="True")
+        //- Google Site Verification
+        meta(name='google-site-verification', content='1234567890')
+        //- Robots : http://www.robotstxt.org/meta.html
+        meta(name="robots", content="all")
+        //- MDN (Mozilla)
+        meta(name="author", content="Damon Bauer (Forked by Tej Kahlon)")
+        meta(name="description", content=siteDescription)
+        //- Facebook Open Graph Data (OG)
+        meta(property="og:site_name", content=facebookSiteName)
+        meta(property="og:url", content=facebookURL)
+        meta(property="og:type", content=facebookType)
+        meta(property="og:title", content=facebookTitle)
+        meta(property="og:description", content=facebookDescription)
+        meta(property="og:image", content="android-chrome-512x512.png")
+        //- Twitter Open Graph Data (Twitter)
+        meta(name='twitter:card', content=twitterCard)
+        meta(name='twitter:title', content=twitterTitle)
+        meta(name='twitter:description', content=twitterDescription)
+        meta(name='twitter:image', content="android-chrome-512x512.png")
+        //- Canonical: https://en.wikipedia.org/wiki/Canonical_link_element
+        link(rel="canonical", href=canonicalURL)
+        //- Language
+        link(rel="alternate", href=siteENURL, hreflang="en", title="English")
+        link(rel="alternate", href=siteFRURL, hreflang="fr", title="Français")
+        //- PRELOAD
+        //- Add PRELOAD Assets here. See the following link for more information:
+        //- https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types | https://www.youtube.com/watch?v=4pQ2byAoIX0&t=16s&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA
+        //- Styles
+        link(rel="stylesheet", href="css/bootstrap.css", media="screen")
+        link(rel="stylesheet", href="css/style.css", media="screen")
+    block vars
+    body(class=bodyClass)
+        block content
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js")
+        script(src="js/vendor/jquery.min.js")
+        script(src="js/vendor/popper.min.js")
+        script(src="js/vendor/bootstrap.min.js")
+        script(src="js/custom.js")
+        script(type="text/javascript")
+            | HTMLInspector.inspect()

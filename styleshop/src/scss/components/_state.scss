@@ -1,0 +1,19 @@
+// Links (Social)
+.link {
+  color: $white-AA;
+  &:link {
+    text-decoration: none;
+  }
+  &:hover {
+    color: darken($white-AA, 10%);
+  }
+  &:active {
+    color: darken($white-AA, 5%);
+  }
+  &:focus {
+    color: darken($white-AA, 10%);
+  }
+  &--social {
+    @include font-size(20);
+  }
+}

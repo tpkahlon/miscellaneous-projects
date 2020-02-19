@@ -1,0 +1,84 @@
+// BASE.scss
+
+// HELPER GUIDE
+
+/* -- SHORTHAND NOTATIONS
+* background: #000 url(images/bg.gif) no-repeat top right;
+* font: italic bold .8em/1.2 Arial, sans-serif;
+* border: 1px solid #000;
+* margin: 10px 5px 10px 5px;
+*/
+
+/* -- DECLARATION ORDER
+* Positioning, Z-index
+  Box-Model, Floats, Size
+  Typography, Color, Alignment
+  Visual, Border
+  Additional
+*/
+
+/* -- THIRD PARTY LINKS FOR HTML
+ASCII Codes: http://htmlarrows.com/ |||| http://entity-lookup.leftlogic.com/
+HTML Elements: https://html.spec.whatwg.org/multipage/indices.html#elements-3/
+HTML Element Attributes: https://html.spec.whatwg.org/multipage/indices.html#attributes-3/
+HTML Guide: http://htmlreference.io/
+Pug Guide: https://pugjs.org/api/getting-started.html/
+Outliner: https://gsnedders.html5.org/outliner/
+Semantic Guide: http://codeguide.co/#html
+Table Generator: http://www.tablesgenerator.com/
+*/
+
+/* -- THIRD PARTY LINKS FOR CSS
+Declare Placeholders : http://thesassway.com/intermediate/using-object-oriented-css-with-sass
+Click Chart: http://css3clickchart.com/
+CSS Arrows: http://www.cssarrowplease.com/
+CSS Guide: http://cssreference.io/
+CSS Linear Gradient Generator: http://www.colorzilla.com/gradient-editor/
+CSS Matic: http://www.cssmatic.com/
+CSS Tricks: https://css-tricks.com/
+CSS Values: http://cssvalues.com/
+SCSS Guide: http://thesassway.com/
+*/
+
+// FONT MIXIN VARS
+// FONT WEIGHTS VARS
+// SELECTION COLOR DECLARATION
+// MEDIA QUERIES VARS
+
+// FONT MIXIN DECLARATION
+@mixin font-size($sizeValue: 16) {
+  font-size: ($sizeValue) + px;
+  font-size: ($sizeValue / 16) + rem;
+}
+
+// FONT WEIGHTS VARS
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-medium-x: 600;
+$fw-bold: 700;
+$fw-bold-x: 800;
+$fw-black: 900;
+
+// SELECTION COLOR DECLARATION
+// https://css-tricks.com/almanac/selectors/s/selection
+*::-moz-selection,
+*::selection {
+  color: white;
+  background-color: black;
+}
+
+// MEDIA QUERIES VARS
+// Check this link for more information: http://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints
+// 36rem = 576px
+// 48rem = 768px
+// 62rem = 992px
+// 75rem = 1200px
+$small: "(max-width: 36rem)";
+$medium: "(max-width: 48rem)";
+$large: "(max-width: 62rem)";
+$xlarge: "(max-width: 75rem)";
+$small__up: "(min-width: 36rem)";
+$medium__up: "(min-width: 48rem)";
+$large__up: "(min-width: 62rem)";
+$xlarge__up: "(min-width: 75rem)";

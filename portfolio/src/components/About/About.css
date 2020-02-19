@@ -1,0 +1,32 @@
+.about {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--color-secondary);
+}
+
+.about__wrap {
+  padding: 4rem 1.25rem 5rem;
+  background: var(--color-secondary);
+  font-family: var(--font-family-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .about__wrap {
+    padding: 8rem 5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about__wrap {
+    padding: 8rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__wrap {
+    padding: 8rem 15rem;
+  }
+}

@@ -1,0 +1,13 @@
+nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+  .container
+    a.navbar-brand(href='/') Website
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#primaryMenu', aria-controls='primaryMenu', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #primaryMenu.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item(class=(bodyClass === 'home' ? 'active' : ''))
+          a.nav-link(href='/')
+            | Home
+            span.sr-only (current)
+        li.nav-item(class=(bodyClass === 'about' ? 'active' : ''))
+          a.nav-link(href='/about.html') About

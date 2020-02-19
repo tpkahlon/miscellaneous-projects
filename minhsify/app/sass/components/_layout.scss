@@ -1,0 +1,64 @@
+// LAYOUT.scss
+
+// SELECTION COLOR DECLARATION
+// https://css-tricks.com/almanac/selectors/s/selection
+*::-moz-selection,
+*::selection {
+  color: $white;
+  background: $black;
+}
+
+// HTML
+html {
+  font-size: 16px;
+}
+
+// BODY
+body {
+	font-size: 1rem;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// RESPONSIVE MEDIA
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+// CONTAINER BREAKPOINTS (ONLY USE IF YOU WANT TO DECLARE YOUR OWN CLASSES AS COLUMNS, USE BOOTSTRAP UTILITY CLASSES RECOMMENDED, AVOID USING THIS OTHERWISE WILL BLOAT CSS FILE)
+// .container {
+//   @media #{$small} {
+//     width: 100%;
+//     max-width: 100%;
+//   }
+//   @media #{$small} {
+//     max-width: 36rem;
+//   }
+//   @media #{$medium} {
+//     max-width: 48rem;
+//   }
+//   @media #{$large} {
+//     max-width: 62rem;
+//   }
+//   @media #{$xlarge} {
+//     max-width: 75rem;
+//   }
+// }
+
+// GRIDS (Feel free to change these)
+// .column {
+//   @include make-col-ready();
+//   @include make-col(12);
+// }
+// .site-blog {
+//   &-column {
+//     @include make-col-ready();
+//     @include make-col(4);
+//   }
+// }

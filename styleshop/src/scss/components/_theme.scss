@@ -1,0 +1,39 @@
+// THEME.scss
+
+body {
+  padding-top: 3.5rem;
+}
+
+.site-banner {
+  color: white;
+  background-color: black;
+  border-radius: 0;
+}
+
+.footer {
+  color: $grey-AC;
+  background: $grey-AA;
+  &__logo {
+    max-height: 4rem;
+  }
+  &__partner {
+    max-height: 3.25rem;
+  }
+}
+
+#gmap_canvas {
+  min-height: 30rem;
+  border-radius: .25rem;
+}
+
+.project--banner {
+  min-height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.affix {
+  position: sticky;
+  top: 4.75rem;
+}

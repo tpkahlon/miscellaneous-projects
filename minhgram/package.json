@@ -1,0 +1,24 @@
+{
+  "name": "minhgram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-select": "^1.13.10",
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-bootlint": "^0.11.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0"
+  }
+}

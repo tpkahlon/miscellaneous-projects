@@ -1,0 +1,114 @@
+:root {
+  --font-family-primary: Nunito, sans-serif;
+  --font-family-secondary: Barlow Condensed, sans-serif;
+  --color-primary: #84dcc6;
+  --color-secondary: #a5ffd6;
+  --color-tertiary: #ffa69e;
+  --color-quaternary: #ff686b;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: var(--font-family-secondary);
+}
+
+h1,
+.h1 {
+  font-size: 2rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.75rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.15rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: var(--font-family-primary);
+}
+
+.site {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 3rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 2.75rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 2.5rem;
+  }
+
+  h4,
+  .h4 {
+    font-size: 2.25rem;
+  }
+
+  h5,
+  .h5 {
+    font-size: 2rem;
+  }
+
+  h6,
+  .h6 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}

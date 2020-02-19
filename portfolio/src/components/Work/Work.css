@@ -1,0 +1,100 @@
+.work {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.work__container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 5rem 1.25rem;
+  font-family: var(--font-family-primary);
+}
+
+.card {
+  width: 100%;
+  flex: 0 0 100%;
+  padding: 1.25rem;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0 0 1.25rem 0;
+  transition: all .4s ease;
+  background: var(--color-white);
+  box-shadow: 0 0 4px 4px rgba(0,0,0,0.25);
+}
+
+.card__thumb {
+  background: var(--color-primary);
+}
+
+.card__img {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+
+.card:hover {
+  cursor: zoom-in;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px 8px rgba(0,0,0,0.25);
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.buttons a {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.buttons a:first-of-type {
+  margin-right: 1rem;
+}
+
+.buttons a:hover,
+.buttons a:focus,
+.buttons a:active {
+  color: var(--color-primary);
+}
+
+.badges {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+.badges li {
+  text-transform: uppercase;
+}
+
+.badges li:not(:first-of-type) {
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .work__container {
+    padding: 7rem 1.25rem;
+  }
+  .card {
+    margin: 1.25rem;
+    padding: 1.25rem;
+    width: calc(50% - 2.5rem);
+    flex: 0 0 calc(50% - 2.5rem);
+  }
+  .card__img {
+    width: auto;
+    max-width: 100%;
+  }
+}

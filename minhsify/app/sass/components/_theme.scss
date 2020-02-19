@@ -1,0 +1,11 @@
+// THEME.scss
+
+body {
+	margin-top: 3.5rem;
+}
+
+.site-banner {
+  color: $white;
+	background-color: $red;
+	min-height: calc(100vh - 3.5rem);
+}

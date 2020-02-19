@@ -1,6 +1,7 @@
 import React from "react";
 import "./Work.css";
 import { GiFreedomDove } from "react-icons/gi";
+import { MdLink } from "react-icons/md";
 
 const Work = () => (
   <>
@@ -28,6 +29,9 @@ const Work = () => (
               <li>ES6</li>
             </ul>
             <div className="buttons">
+              <span className="button__icon">
+                <MdLink />
+              </span>
               <a
                 href="https://github.com/tpkahlon/javascript-projects#javascript-projects-vanillagatsbyangularjs"
                 target="_blank"
@@ -56,6 +60,9 @@ const Work = () => (
               <li>Sass</li>
             </ul>
             <div className="buttons">
+              <span className="button__icon">
+                <MdLink />
+              </span>
               <a
                 href="https://github.com/tpkahlon/css-projects#css-projects"
                 target="_blank"
@@ -85,6 +92,9 @@ const Work = () => (
               <li>JavaScript</li>
             </ul>
             <div className="buttons">
+              <span className="button__icon">
+                <MdLink />
+              </span>
               <a
                 href="https://github.com/tpkahlon/miscellaneous-projects#miscellaneous-projects"
                 target="_blank"
@@ -112,6 +122,9 @@ const Work = () => (
               <li>ReactJS</li>
             </ul>
             <div className="buttons">
+              <span className="button__icon">
+                <MdLink />
+              </span>
               <a
                 href="https://github.com/tpkahlon/react-projects#react-projects"
                 target="_blank"
@@ -140,6 +153,9 @@ const Work = () => (
               <li>CSS</li>
             </ul>
             <div className="buttons">
+              <span className="button__icon">
+                <MdLink />
+              </span>
               <a
                 href="https://github.com/tpkahlon/responsive-web-design-projects#freecodecamp---responsive-web-design-projects"
                 target="_blank"
@@ -167,6 +183,9 @@ const Work = () => (
               <li>JavaScript</li>
             </ul>
             <div className="buttons">
+              <span className="button__icon">
+                <MdLink />
+              </span>
               <a
                 href="https://github.com/tpkahlon/javascript30#javascript30"
                 target="_blank"

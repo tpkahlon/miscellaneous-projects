@@ -52,6 +52,19 @@
 
 .buttons {
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.button__icon {
+  margin-right: .3rem;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .buttons a {
@@ -61,9 +74,9 @@
   color: var(--color-black);
 }
 
-.buttons a:first-of-type {
+/* .buttons a:first-of-type {
   margin-right: 1rem;
-}
+} */
 
 .buttons a:hover,
 .buttons a:focus,

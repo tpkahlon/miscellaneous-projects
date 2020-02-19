@@ -39,6 +39,9 @@
   margin: auto;
   height: auto;
   display: block;
+  min-height: 10rem;
+  max-height: 10rem;
+  height: 100%;
 }
 
 .card:hover {

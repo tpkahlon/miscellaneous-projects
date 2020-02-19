@@ -11,11 +11,11 @@ const About = () =>
       </section>
       <section className="about__wrap">
         <section className="about__content">
-          <p>Hey, Thanks for visiting my portfolio page.</p>
-          <p>Myself, Tej, I am a Front End Developer from Toronto.</p>
-          <p>I love learning emerging technologies in JavaScript realm, seek interest in exploring new ideas to develop web services by leveraging these new trends. My passion is to develop future-oriented web products that adheres to cutting-edge principles, methodologies involving around enriched UI experiences that complies to responsiveness, accessibility, performance optimization and scalable code structure.</p>
-          <p>I believe in hard work, attention to detail and constant learning in order to develop best performing web services.</p>
-          <p><strong>If you have any projects in mind, I look forward to hear from you soon...</strong></p>
+          <p>Hello...</p>
+          <p>Thanks for taking the time to check my portfolio page.</p>
+          <p>I am a <a href="https://roadmap.sh/frontend" target="_blank" rel="noopener noreferrer">Front End Developer</a> based in Toronto.</p>
+          <p>I love experimenting with emerging technologies built using JavaScript. I am always keen in building JS based services to solve a real world problem or automate niche market requirements. My objective is to become a better <strong>Front + Back End Developer</strong> specializing in <strong>MERN</strong> stack.</p>
+          <p>I am a huge advocate of continuous learning, making web an awesome place for humans.</p>
         </section>
       </section>
     </section>

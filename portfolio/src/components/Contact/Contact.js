@@ -12,10 +12,9 @@ const Contact = () =>
       <section className="contact__container">
         <section className="contact__info">
           <p className='contact__info-email'>
-            <a href='mailto:tejpartapsingh91@gmail.com' rel='noopener noreferrer' target='_blank'>tejpartapsingh91@gmail.com</a>
+            <a href='mailto:tejpartapsingh91@gmail.com' rel='noopener noreferrer' target='_blank'>Drop me a message!</a>
           </p>
-          <p className='contact__info-quote'>Develop, Take risks and Fail, Develop, Learn from your mistakes and prosper, Develop, Build something exciting and worthwhile!</p>
-          <p className='contact__info-summary'>I like to learn new technologies and put them into practice by developing solutions to real world problems. I am available to collaborate on any interesting project or idea you may have. I look forward to hear from you soon!</p>
+          <p className='contact__info-quote'><strong>Thanks</strong> to <a href="https://twitter.com/ossia" target="_blank" rel="noopener noreferrer">Quincy Larson</a> for developing <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a> community and encouraging people like me to become Developers!</p>
           <ul className='contact__list'>
             <li className='contact__list-item'>
               <a href='https://wa.me/14164092721' rel='noopener noreferrer' target='_blank'><FaWhatsapp /></a>
@@ -29,7 +28,7 @@ const Contact = () =>
           </ul>
         </section>
         <div className="contact__thumb">
-          <img src='./myself.jpg' alt='Tej Kahlon' />
+          <img src='https://i.imgur.com/pQdjtTm.png' alt='Tej Kahlon' />
         </div>
       </section>
     </section>

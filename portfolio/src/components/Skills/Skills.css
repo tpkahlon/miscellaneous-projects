@@ -22,13 +22,14 @@
 .skills__list-item svg {
   font-size: 3rem;
   transition: all .4s ease;
+  color: #7AA6C1;
 }
 
 .skills__list-item svg:hover,
 .skills__list-item svg:active,
 .skills__list-item svg:focus {
   cursor: zoom-in;
-  color: var(--color-white);
+  color: #2E5A75;
 }
 
 @media screen and (min-width: 768px) {

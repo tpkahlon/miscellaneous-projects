@@ -30,4 +30,4 @@
 - Project 1 / MFB : [View Demo]()
 - Project 2 / Minhgram : [View Demo]()
 - Project 3 / Portfolio : [View Demo]()
-- Project 4 / Styleshop : [View Demo]()
+- Project 4 / Styleshop : [View Demo](https://5e4d8e20575481ab0d269c1b--gracious-stonebraker-011ba3.netlify.com/)

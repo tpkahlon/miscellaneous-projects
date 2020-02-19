@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tpkahlon.github.io/portfolio",
+  "homepage": ".",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "moment": "^2.24.0",

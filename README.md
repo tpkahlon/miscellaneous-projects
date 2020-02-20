@@ -29,5 +29,5 @@
 
 - Project 1 / MFB : [View Demo](https://5e4d91c5575481b6ae269c21--tender-volhard-b4c7ce.netlify.com/)
 - Project 2 / Minhgram : [View Demo](https://5e4d913eb6d56103548f99c2--priceless-aryabhata-d89266.netlify.com/)
-- Project 3 / Portfolio : [View Demo](https://5e4dc52d99eb038fc9441e17--lucid-hopper-f9ed06.netlify.com/)
+- Project 3 / Portfolio : [View Demo](https://lucid-hopper-f9ed06.netlify.com/)
 - Project 4 / Styleshop : [View Demo](https://5e4d8e20575481ab0d269c1b--gracious-stonebraker-011ba3.netlify.com/)

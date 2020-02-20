@@ -1,20 +1,33 @@
 .work {
-  display: flex;
   position: relative;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .work__container {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  align-items: center;
   align-content: center;
   justify-content: center;
-  padding: 5rem 1.25rem;
+  padding: 4rem 1.25rem 5rem;
   font-family: var(--font-family-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .work__container {
+    padding: 8rem 5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .work__container {
+    padding: 8rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .work__container {
+    padding: 8rem 15rem;
+  }
 }
 
 .card {
@@ -28,6 +41,13 @@
   transition: all .4s ease;
   background: var(--color-white);
   box-shadow: 0 0 4px 4px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .h3 {
+  margin-top: 0;
 }
 
 .card__thumb {
@@ -45,8 +65,8 @@
 }
 
 .card:hover {
-  cursor: zoom-in;
-  transform: scale(1.05);
+  /* cursor: zoom-in; */
+  /* transform: scale(1.05); */
   box-shadow: 0 0 8px 8px rgba(0,0,0,0.25);
 }
 
@@ -100,9 +120,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .work__container {
+  /* .work__container {
     padding: 7rem 1.25rem;
-  }
+  } */
   .card {
     margin: 1.25rem;
     padding: 1.25rem;

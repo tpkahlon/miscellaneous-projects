@@ -33,6 +33,7 @@ h3,
 h4,
 h5,
 h6 {
+  letter-spacing: .2rem;
   line-height: 1;
   text-transform: uppercase;
   font-family: var(--font-family-secondary);
@@ -73,7 +74,6 @@ p {
   font-family: var(--font-family-primary);
 }
 
-.sticker,
 h2 {
   color: #4c4b63;
 }

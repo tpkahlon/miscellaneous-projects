@@ -1,13 +1,12 @@
 import React from 'react';
 import './Contact.css';
-import { FaLinkedinIn, FaWhatsapp, FaGithub, FaHandPeace } from 'react-icons/fa';
+import { FaLinkedinIn, FaWhatsapp, FaGithub } from 'react-icons/fa';
 
 const Contact = () =>
   <>
     <section className='contact'>
-      <section className='sticker'>
-        <FaHandPeace />
-        <h1 className="sticker__text h3">Say Hi!</h1>
+      <section className='sticker sticker--light'>
+        <h1 className="sticker__text h2">Say Hi!</h1>
       </section>
       <section className="contact__container">
         <section className="contact__info">

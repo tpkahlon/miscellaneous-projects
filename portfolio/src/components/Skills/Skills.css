@@ -1,10 +1,5 @@
 .skills {
   position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding: 5rem 1.25rem;
   background: var(--color-primary);
 }
 
@@ -21,24 +16,46 @@
 
 .skills__list-item svg {
   font-size: 3rem;
-  transition: all .4s ease;
-  color: #7AA6C1;
+  transition: all 0.4s ease;
+  color: #7aa6c1;
 }
 
 .skills__list-item svg:hover,
 .skills__list-item svg:active,
 .skills__list-item svg:focus {
   cursor: zoom-in;
-  color: #2E5A75;
+  color: #2e5a75;
+}
+
+.skills__wrap {
+  padding: 4rem 1.25rem 5rem;
+  background: var(--color-secondary);
+  font-family: var(--font-family-primary);
 }
 
 @media screen and (min-width: 768px) {
-  .skills {
-    padding: 7rem 1.25rem;
+  .skills__wrap {
+    padding: 8rem 5rem;
   }
+}
+
+@media screen and (min-width: 992px) {
+  .skills__wrap {
+    padding: 8rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .skills__wrap {
+    padding: 8rem 15rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .skills__list-item {
     margin: 1.5rem;
   }
+
   .skills__list-item svg {
     font-size: 5rem;
   }

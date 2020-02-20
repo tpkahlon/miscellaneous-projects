@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  min-height: 90vh;
+  min-height: 100vh;
   height: 100%;
   position: relative;
   align-content: center;

@@ -1,19 +1,17 @@
 import React from "react";
 import "./Work.css";
-import { GiFreedomDove } from "react-icons/gi";
 import { MdLink } from "react-icons/md";
 
 const Work = () => (
   <>
     <section className="work">
-      <section className="sticker">
-        <GiFreedomDove />
-        <h1 className="sticker__text h3">Projects</h1>
+      <section className="sticker sticker--light">
+        <h1 className="sticker__text h2">Projects</h1>
       </section>
       <section className="work__container">
         <div className="card card--1">
           <header>
-            <h2>JavaScript Projects</h2>
+            <h2 className="h3">JavaScript Projects</h2>
           </header>
           <main>
             <img
@@ -44,7 +42,7 @@ const Work = () => (
         </div>
         <div className="card card--2">
           <header>
-            <h2>CSS Projects</h2>
+            <h2 className="h3">CSS Projects</h2>
           </header>
           <main>
             <img
@@ -75,7 +73,7 @@ const Work = () => (
         </div>
         <div className="card card--3">
           <header>
-            <h2>Miscellaneous Projects</h2>
+            <h2 className="h3">Miscellaneous Projects</h2>
           </header>
           <main>
             <img
@@ -107,7 +105,7 @@ const Work = () => (
         </div>
         <div className="card card--4">
           <header>
-            <h2>React Projects</h2>
+            <h2 className="h3">React Projects</h2>
           </header>
           <main>
             <img
@@ -137,7 +135,7 @@ const Work = () => (
         </div>
         <div className="card card--5">
           <header>
-            <h2>Responsive Web Design Projects</h2>
+            <h2 className="h3">Responsive Web Design Projects</h2>
           </header>
           <main>
             <img
@@ -168,7 +166,7 @@ const Work = () => (
         </div>
         <div className="card card--6">
           <header>
-            <h2>JavaScript30.com Projects</h2>
+            <h2 className="h3">JavaScript30.com Projects</h2>
           </header>
           <main>
             <img

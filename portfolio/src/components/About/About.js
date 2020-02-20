@@ -1,13 +1,11 @@
 import React from 'react';
 import './About.css';
-import { GiPegasus } from 'react-icons/gi';
 
 const About = () =>
   <>
     <section className="about">
       <section className='sticker'>
-        <GiPegasus />
-        <h1 className="sticker__text h3">Welcome</h1>
+        <h1 className="sticker__text h2">Welcome</h1>
       </section>
       <section className="about__wrap">
         <section className="about__content">

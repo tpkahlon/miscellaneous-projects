@@ -1,21 +1,18 @@
 /* Sticker Component */
 
 .sticker {
-  position: absolute;
-  top: -2.25rem;
+  position: relative;
   z-index: 1;
   display: flex;
-  padding: 1.25rem;
-  border-radius: 4px;
-  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
-  background: var(--color-white);
-  box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+  color: #4c4b63;
+  padding: 1rem;
+  background: rgba(255,255,255,0.2);
 }
 
-.sticker svg {
-  font-size: 2rem;
-  margin-right: 0.5rem;
+.sticker--light {
+  background: rgba(0,0,0,0.05);
 }
 
 .sticker__text {
@@ -24,10 +21,6 @@
 
 @media screen and (min-width: 768px) {
   .sticker {
-    top: -2.75rem;
-  }
-  .sticker svg {
-    font-size: 3rem;
-    margin-right: 0.75rem;
+    top: 0;
   }
 }

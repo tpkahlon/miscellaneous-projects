@@ -57,8 +57,10 @@
 }
 
 .contact__list-item a:link,
+.contact__list-item a:hover,
 .contact__list-item a:focus,
 .contact__list-item a:active {
+  color: var(--color-grey);
   text-transform: none;
 }
 
@@ -76,7 +78,7 @@
 .contact__list-item svg:active,
 .contact__list-item svg:focus {
   cursor: pointer;
-  color: var(--color-white);
+  /* color: var(--color-white); */
 }
 
 .contact__thumb {

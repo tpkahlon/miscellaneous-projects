@@ -1,36 +1,141 @@
-import React from 'react';
-import './Contact.css';
-import { FaLinkedinIn, FaWhatsapp, FaGithub } from 'react-icons/fa';
+import React from "react";
+import "./Contact.css";
+import {
+  FaLinkedin,
+  FaWhatsapp,
+  FaGithub,
+  FaBehanceSquare,
+  FaTwitterSquare,
+  FaBlogger,
+  FaDev,
+  FaCopyright
+} from "react-icons/fa";
 
-const Contact = () =>
+const Contact = () => (
   <>
-    <section className='contact'>
-      <section className='sticker sticker--light'>
+    <section className="contact">
+      <section className="sticker sticker--light">
         <h1 className="sticker__text h2">Say Hi!</h1>
       </section>
       <section className="contact__container">
         <section className="contact__info">
-          <p className='contact__info-email'>
-            <a href='mailto:tejpartapsingh91@gmail.com' rel='noopener noreferrer' target='_blank'>Drop me a message!</a>
+          <p className="contact__info-email">
+            <a
+              href="mailto:tejpartapsingh91@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Drop me a message!
+            </a>
           </p>
-          <p className='contact__info-quote'><strong>Thanks</strong> to <a href="https://twitter.com/ossia" target="_blank" rel="noopener noreferrer">Quincy Larson</a> for developing <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a> community and encouraging people like me to become Developers!</p>
-          <ul className='contact__list'>
-            <li className='contact__list-item'>
-              <a href='https://wa.me/14164092721' rel='noopener noreferrer' target='_blank'><FaWhatsapp /></a>
+          <p className="contact__info-quote">
+            <strong>Thanks</strong> to{" "}
+            <a
+              href="https://twitter.com/ossia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Quincy Larson
+            </a>{" "}
+            for developing{" "}
+            <a
+              href="https://www.freecodecamp.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              freeCodeCamp
+            </a>{" "}
+            community and encouraging people like me to become Developers!
+          </p>
+          <ul className="contact__list">
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://wa.me/14164092721"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaWhatsapp />
+              </a>
             </li>
-            <li className='contact__list-item'>
-              <a href='https://github.com/tpkahlon' rel='noopener noreferrer' target='_blank'><FaGithub /></a>
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://github.com/tpkahlon"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaGithub />
+              </a>
             </li>
-            <li className='contact__list-item'>
-              <a href='https://linkedin.com/in/tpkahlon' rel='noopener noreferrer' target='_blank'><FaLinkedinIn /></a>
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://linkedin.com/in/tpkahlon"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://behance.net/tpkahlon"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaBehanceSquare />
+              </a>
+            </li>
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://twitter.com/kahlontej"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaTwitterSquare />
+              </a>
+            </li>
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://dev.to/tpkahlon"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaDev />
+              </a>
+            </li>
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://lucid-hopper-f9ed06.netlify.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaCopyright />
+              </a>
+            </li>
+            <li className="contact__list-item">
+              <a
+                className="text-decoration-none"
+                href="https://quirky-benz-c762ef.netlify.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaBlogger />
+              </a>
             </li>
           </ul>
         </section>
         <div className="contact__thumb">
-          <img src='https://i.imgur.com/pQdjtTm.png' alt='Tej Kahlon' />
+          <img src="https://i.imgur.com/pQdjtTm.png" alt="Tej Kahlon" />
         </div>
       </section>
     </section>
   </>
+);
 
 export default Contact;

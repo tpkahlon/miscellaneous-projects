@@ -101,7 +101,7 @@
 .buttons a:hover,
 .buttons a:focus,
 .buttons a:active {
-  color: var(--color-primary);
+  color: var(--color-grey);
 }
 
 .badges {

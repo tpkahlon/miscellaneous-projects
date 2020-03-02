@@ -1,0 +1,89 @@
+:root {
+  --sm: 480px;
+  --md: 768px;
+  --lg: 960px;
+  --xl: 1280px;
+  --red: red;
+  --blue: blue;
+  --green: green;
+  --black: black;
+  --pink: pink;
+  --white: white;
+  --yellow: yellow;
+  --purple: purple;
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--yellow);
+  background: var(--pink);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: var(--xl);
+  margin: auto;
+  background: var(--red);
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col {
+  margin: 0 1% 1%;
+  float: left;
+  background: var(--purple);
+  border: 1px solid var(--white);
+}
+
+.col-2,
+.col-3,
+.col-6,
+.col-10,
+.col-12 {
+  width: 98%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    background: var(--green);
+  }
+  .col-2,
+  .col-3,
+  .col-6,
+  .col-10 {
+    width: 48%;
+  }
+  .col-12 {
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    background: var(--blue);
+  }
+  .col-2 {
+    width: 23%;
+  }
+  .col-3 {
+    width: 23%;
+  }
+  .col-6 {
+    width: 48%;
+  }
+  .col-10 {
+    width: 73%;
+  }
+  .col-12 {
+    width: 98%;
+  }
+}

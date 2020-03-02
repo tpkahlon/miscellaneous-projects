@@ -1,0 +1,62 @@
+/* Go transit logo */
+
+.site-content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-logo {
+  --color-primary: #256c2f;
+  --color-white: #fff;
+  display: flex;
+}
+
+.site-logo__g {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50% 50% 0 50%;
+  background-color: var(--color-primary, #256c2f);
+
+  margin: 0 10px 0 0;
+}
+
+.site-logo__g--hl {
+  height: 7.5px;
+  width: calc(50% - 3.75px);
+  background-color: var(--color-white, #fff);
+
+  position: absolute;
+  top: calc(50% - 3.75px);
+  left: calc(50% + 3.75px);
+}
+
+.site-logo__g--vl {
+  height: 100%;
+  width: 7.5px;
+  background-color: var(--color-white, #fff);
+}
+
+.site-logo__o {
+  display: flex;
+  align-items: center;
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: var(--color-primary, #256c2f);
+}
+
+.site-logo__o--hl {
+  width: 100%;
+  height: 7.5px;
+  background-color: var(--color-white, #fff);
+}

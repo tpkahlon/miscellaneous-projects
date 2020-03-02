@@ -1,0 +1,87 @@
+/* Base */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  margin: 3rem 0;
+}
+
+/* Standard */
+/* auto-fill | auto-fit | Read the difference here: http://tinyurl.com/y2znxw33 */
+/* Source: https://www.youtube.com/watch?v=tFKrK4eAiUQ */
+
+.grid--standard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/* Fold */
+/* Source: https://www.youtube.com/watch?v=EEOJZy_Gge4 */
+
+.grid--fold {
+  display: grid;
+  grid-template-rows: 3fr minmax(50px, 200px) max-content max-content 1fr;
+  justify-items: center;
+  height: 100vh;
+}
+
+.grid--fold img {
+  width: 100%;
+  max-width: 200px;
+  grid-row: 2;
+}
+
+.grid--fold h1 {
+  grid-row: 3;
+}
+
+.grid--fold div {
+  grid-row: 4;
+}
+
+/* Mondrian */
+/* Source: https://www.youtube.com/watch?v=qNtJ5p3h2A4 */
+
+.grid--mondrian {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 80px;
+  grid-auto-flow: dense;
+}
+
+.grid--mondrian img:nth-child(1) {
+  grid-row: span 3;
+}
+
+.grid--mondrian img:nth-child(3) {
+  grid-column: span 4;
+}
+
+.grid--mondrian img:nth-child(5) {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.grid--mondrian img:nth-child(7) {
+  grid-column: span 3;
+}

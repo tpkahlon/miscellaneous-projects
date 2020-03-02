@@ -1,0 +1,82 @@
+:root {
+  --sm: 480px;
+  --md: 768px;
+  --lg: 960px;
+  --xl: 1280px;
+  --red: red;
+  --blue: blue;
+  --green: green;
+  --black: black;
+  --pink: pink;
+  --white: white;
+  --yellow: yellow;
+  --purple: purple;
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--yellow);
+  background: var(--pink);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: var(--xl);
+  margin: auto;
+  background: var(--red);
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col {
+  padding: 15px;
+  margin: 1%;
+  background: var(--purple);
+  border: 1px solid var(--white);
+}
+
+.col-2,
+.col-3,
+.col-6,
+.col-10,
+.col-12 {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    background: var(--green);
+  }
+  .col-2,
+  .col-3,
+  .col-6,
+  .col-10 {
+    flex-basis: 48%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    background: var(--blue);
+  }
+  .col-2 {
+    flex-basis: 23%;
+  }
+  .col-3 {
+    flex-basis: 23%;
+  }
+  .col-6 {
+    flex-basis: 48%;
+  }
+  .col-10 {
+    flex-basis: 73%;
+  }
+}

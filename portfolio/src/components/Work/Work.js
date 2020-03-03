@@ -42,37 +42,6 @@ const Work = () => (
         </div>
         <div className="card card--2">
           <header>
-            <h2 className="h3">CSS</h2>
-            <main class="card__img--bg">
-              <img
-                className="card__img"
-                src="https://api.iconify.design/logos:css-3.svg"
-                alt="CSS Projects"
-              />
-            </main>
-            <p>Archive of my CSS projects.</p>
-            <ul className="badges">
-              <li>CSS</li>
-              <li>Sass</li>
-            </ul>
-          </header>
-          <footer>
-            <div className="buttons">
-              <span className="button__icon">
-                <MdLink />
-              </span>
-              <a
-                href="https://github.com/tpkahlon/css-projects#css-projects"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Source
-              </a>
-            </div>
-          </footer>
-        </div>
-        <div className="card card--3">
-          <header>
             <h2 className="h3">Web</h2>
             <main class="card__img--bg">
               <img
@@ -103,7 +72,7 @@ const Work = () => (
             </div>
           </footer>
         </div>
-        <div className="card card--4">
+        <div className="card card--3">
           <header>
             <h2 className="h3">React</h2>
             <main class="card__img--bg">
@@ -133,38 +102,7 @@ const Work = () => (
             </div>
           </footer>
         </div>
-        <div className="card card--5">
-          <header>
-            <h2 className="h3">freeCodeCamp</h2>
-            <main class="card__img--bg">
-              <img
-                className="card__img"
-                src="https://api.iconify.design/cib:freecodecamp.svg"
-                alt="Responsive Web Design Projects"
-              />
-            </main>
-            <p>Archive of my Responsive Web Design projects.</p>
-            <ul className="badges">
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-          </header>
-          <footer>
-            <div className="buttons">
-              <span className="button__icon">
-                <MdLink />
-              </span>
-              <a
-                href="https://github.com/tpkahlon/responsive-web-design-projects#freecodecamp---responsive-web-design-projects"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Source
-              </a>
-            </div>
-          </footer>
-        </div>
-        <div className="card card--6">
+        <div className="card card--4">
           <header>
             <h2 className="h3">JS30</h2>
             <main class="card__img--bg">
@@ -194,8 +132,38 @@ const Work = () => (
             </div>
           </footer>
         </div>
-      </section>
+        <div className="card card--5">
+          <header>
+            <h2 className="h3">JS20</h2>
+            <main class="card__img--bg">
+              <img
+                className="card__img"
+                src="https://api.iconify.design/logos:javascript.svg"
+                alt="JavaScript30.com Projects"
+              />
+            </main>
+            <p>Archive of my VanillaWebProjects.com projects.</p>
+            <ul className="badges">
+              <li>JavaScript</li>
+            </ul>
+          </header>
+          <footer>
+            <div className="buttons">
+              <span className="button__icon">
+                <MdLink />
+              </span>
+              <a
+                href="https://github.com/tpkahlon/javascript20"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Source
+                  </a>
+            </div>
+          </footer>
+        </div>
     </section>
+  </section>
   </>
 );
 

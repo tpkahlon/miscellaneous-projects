@@ -28,25 +28,6 @@ const Contact = () => (
               Drop me a message!
             </a>
           </p>
-          <p className="contact__info-quote">
-            <strong>Thanks</strong> to{" "}
-            <a
-              href="https://twitter.com/ossia"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Quincy Larson
-            </a>{" "}
-            for developing{" "}
-            <a
-              href="https://www.freecodecamp.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              freeCodeCamp
-            </a>{" "}
-            community and encouraging people like me to become Developers!
-          </p>
           <ul className="contact__list">
             <li className="contact__list-item">
               <a

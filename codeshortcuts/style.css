@@ -69,8 +69,8 @@ footer {
 }
 
 .card__d {
-  width: 100%;
   max-width: 15rem;
+  width: 100%;
   margin: 0 0 1rem;
 }
 
@@ -80,6 +80,8 @@ footer {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   background: var(--black);
+  margin: auto;
+  width: inherit;
 }
 
 @media screen and (min-width: 30rem) {

@@ -75,7 +75,7 @@ footer {
 }
 
 .card__c {
-  word-wrap: anywhere;
+  word-break: break-word;
   color: var(--code);
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;

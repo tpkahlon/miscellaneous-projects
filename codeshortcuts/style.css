@@ -24,14 +24,22 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-footer {
-  background: var(--black);
+a {
+  color: var(--code);
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+header {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
+  text-align: center;
+  background: var(--black);
 }
 
 .app {

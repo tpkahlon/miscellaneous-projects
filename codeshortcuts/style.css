@@ -1,0 +1,93 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap");
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --dark: #252525;
+  --code: #29c7ac;
+  --error: #c02739;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: var(--white);
+  background: var(--dark);
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+footer {
+  background: var(--black);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  min-height: 100vh;
+}
+
+.oops {
+  font-size: 3rem;
+  color: var(--error);
+  align-self: center;
+  justify-self: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 3rem 1rem 0;
+}
+
+.card:last-child {
+  margin-bottom: 3rem;
+}
+
+.card__p {
+  line-height: 1;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+}
+
+.card__d {
+  width: 100%;
+  max-width: 15rem;
+  margin: 0 0 1rem;
+}
+
+.card__c {
+  word-wrap: anywhere;
+  color: var(--code);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background: var(--black);
+}
+
+@media screen and (min-width: 30rem) {
+  .app {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .oops {
+    grid-template-columns: 1fr;
+  }
+}

@@ -46,4 +46,4 @@
 - Project 2 / CSS Icons : [View Demo](https://keen-rosalind-e2a771.netlify.com/)
 - Project 3 / Responsive Grid Systems : [View Demo](https://xenodochial-jang-4643e5.netlify.com/)
 - Project 4 / Code Shortcuts: [View Demo](https://kind-hamilton-2c37fc.netlify.com/)
-- Project 5 / Minhimum: [View Demo](https://kind-hamilton-2c37fc.netlify.com/)
+- Project 5 / Minhimum: **Download Repo locally**

@@ -1,0 +1,35 @@
+:root {
+  --one-pixel: 1px;
+  --md-pixel: 16px;
+  --xs-rem: .25rem;
+  --sm-rem: .5rem;
+  --md-rem: 1rem;
+  --lg-rem: 1.25rem;
+  --xl-rem: 1.5rem;
+  --md-2x-rem: 2rem;
+  --fifty-rem: 50rem;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #eee;
+  --dark-color: #777;
+  --white: #fff;
+  --black: #000;
+  --silver: #ccc;
+  --font-primary: "Nunito", sans-serif;
+}
+
+/* @media screen and (min-width: 30rem) {
+}
+
+@media screen and (min-width: 40rem) {
+}
+
+@media screen and (min-width: 60rem) {
+}
+
+@media screen and (min-width: 70rem) {
+} */

@@ -1,0 +1,42 @@
+html .sticky-top {
+  position: sticky;
+  top: 0;
+}
+
+html .fixed-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+html .fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+html .position-static {
+  position: static;
+}
+
+html .position-relative {
+  position: relative;
+}
+
+html .position-absolute {
+  position: absolute;
+}
+
+html .position-fixed {
+  position: fixed;
+}
+
+html .position-sticky {
+  position: sticky;
+}
+
+html .overflow-auto {
+  overflow: auto;
+}
+
+html .overflow-hidden {
+  overflow: hidden;
+}

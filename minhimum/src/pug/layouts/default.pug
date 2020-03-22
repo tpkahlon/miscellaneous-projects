@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    block title
+    link(rel="stylesheet", href="./minhimum/minhimum.css")
+    link(rel="stylesheet", href="./css/style.css")
+    link(rel='icon' href='https://image.flaticon.com/icons/svg/546/546042.svg' type='image/svg')
+  block vars
+  body(class=bodyClass)
+    block content
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js")
+    script(src="./js/script.js")
+    script(type="text/javascript")
+      | HTMLInspector.inspect()

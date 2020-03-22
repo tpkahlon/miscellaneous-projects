@@ -1,0 +1,44 @@
+{
+  "name": "minhimum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tpkahlon/minhimum.git",
+  "author": "Tej <tejpartapsingh91@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "make": "mkdirp dist/css -p && mkdirp dist/minhimum -p && mkdirp dist/js -p && mkdirp dist/images -p",
+    "css": "copyfiles -f src/css/*.css dist/css",
+    "mm": "copyfiles -f src/minhimum/*.css dist/minhimum",
+    "js": "copyfiles -f src/js/*.js dist/js",
+    "html": "pug --pretty src/pug/pages/ -o dist/",
+    "beautify": "js-beautify --html -qrt ./dist/**/*.html",
+    "images": "imagemin src/images/* --out-dir dist/images",
+    "start": "browser-sync start --server --serveStatic dist --watch --files dist",
+    "reload": "browser-sync reload",
+    "watch:css": "watch \"run-p css reload\" \"src/css\"",
+    "watch:mm": "watch \"run-p mm reload\" \"src/minhimum\"",
+    "watch:js": "watch \"run-p js reload\" \"src/js\"",
+    "watch:html": "watch \"run-p html beautify reload\" \"src/pug\"",
+    "watch:images": "watch \"run-p images reload\" \"src/images\"",
+    "watch": "run-p watch:css watch:mm watch:js watch:html watch:images",
+    "stream": "run-s clean make css mm js html beautify images start",
+    "dev": "run-p stream watch",
+    "build": "run-s stream"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "dependencies": {
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "js-beautify": "^1.10.3",
+    "mkdirp": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "rimraf": "^3.0.2",
+    "watch": "^1.0.2",
+    "yarn": "^1.22.4"
+  }
+}

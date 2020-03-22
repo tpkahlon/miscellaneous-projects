@@ -1,0 +1,43 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: var(--white);
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.navigation__wrap {
+  min-height: 4rem;
+  display: grid;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "primary logo secondary";
+}
+
+.navigation__left {
+  justify-self: flex-start;
+}
+
+.navigation__right {
+  justify-self: flex-end;
+}
+
+.navigation__list {
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--white);
+  background: var(--primary-color);
+  min-height: calc(100vh - 4rem);
+}

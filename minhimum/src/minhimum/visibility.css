@@ -1,0 +1,48 @@
+html .visible {
+  visibility: visible;
+}
+
+html .invisible {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 30rem) {
+  html .visible-sm {
+    visibility: visible;
+  }
+
+  html .invisible-sm {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  html .visible-md {
+    visibility: visible;
+  }
+
+  html .invisible-md {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  html .visible-lg {
+    visibility: visible;
+  }
+
+  html .invisible-lg {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 70rem) {
+  html .visible-xl {
+    visibility: visible;
+  }
+
+  html .invisible-xl {
+    visibility: hidden;
+  }
+}
+

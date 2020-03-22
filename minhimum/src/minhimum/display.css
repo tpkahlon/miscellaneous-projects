@@ -1,0 +1,87 @@
+html .d-none {
+  display: none;
+}
+
+html .d-block {
+  display: block;
+}
+
+html .d-inline {
+  display: inline;
+}
+
+html .d-inline-block {
+  display: inline-block;
+}
+
+@media screen and (min-width: 30rem) {
+  html .d-sm-none {
+    display: none;
+  }
+
+  html .d-sm-block {
+    display: block;
+  }
+
+  html .d-sm-inline {
+    display: inline;
+  }
+
+  html .d-sm-inline-block {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  html .d-md-none {
+    display: none;
+  }
+
+  html .d-md-block {
+    display: block;
+  }
+
+  html .d-md-inline {
+    display: inline;
+  }
+
+  html .d-md-inline-block {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  html .d-lg-none {
+    display: none;
+  }
+
+  html .d-lg-block {
+    display: block;
+  }
+
+  html .d-lg-inline {
+    display: inline;
+  }
+
+  html .d-lg-inline-block {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 70rem) {
+  html .d-xl-none {
+    display: none;
+  }
+
+  html .d-xl-block {
+    display: block;
+  }
+
+  html .d-xl-inline {
+    display: inline;
+  }
+
+  html .d-xl-inline-block {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,9 @@
+body {
+  color: var(--dark-color);
+  margin-top: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}

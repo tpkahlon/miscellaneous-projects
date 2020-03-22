@@ -1,0 +1,301 @@
+html .line-height-1 {
+  line-height: 1;
+}
+
+html .text-justify {
+  text-align: justify;
+}
+
+html .text-decoration-none {
+  text-decoration: none;
+}
+
+html .text-left {
+  text-align: left;
+}
+
+html .text-right {
+  text-align: right;
+}
+
+html .text-center {
+  text-align: center;
+}
+
+html .text-nowrap {
+  white-space: nowrap;
+}
+
+html .text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html .text-lowercase {
+  text-transform: lowercase;
+}
+
+html .text-uppercase {
+  text-transform: uppercase;
+}
+
+html .text-capitalize {
+  text-transform: capitalize;
+}
+
+html .font-weight-bold {
+  font-weight: bold;
+}
+
+html .font-weight-normal {
+  font-weight: normal;
+}
+
+html .font-weight-light {
+  font-weight: light;
+}
+
+html .font-italic {
+  font-style: italic;
+}
+
+@media screen and (min-width: 30rem) {
+  html .text-sm-justify {
+    text-align: justify;
+  }
+
+  html .text-decoration-sm-none {
+    text-decoration: none;
+  }
+
+  html .text-sm-left {
+    text-align: left;
+  }
+
+  html .text-sm-right {
+    text-align: right;
+  }
+
+  html .text-sm-center {
+    text-align: center;
+  }
+
+  html .text-sm-nowrap {
+    white-space: nowrap;
+  }
+
+  html .text-sm-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html .text-sm-lowercase {
+    text-transform: lowercase;
+  }
+
+  html .text-sm-uppercase {
+    text-transform: uppercase;
+  }
+
+  html .text-sm-capitalize {
+    text-transform: capitalize;
+  }
+
+  html .font-sm-weight-bold {
+    font-weight: bold;
+  }
+
+  html .font-sm-weight-normal {
+    font-weight: normal;
+  }
+
+  html .font-sm-weight-light {
+    font-weight: light;
+  }
+
+  html .font-sm-italic {
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  html .text-md-justify {
+    text-align: justify;
+  }
+
+  html .text-decoration-md-none {
+    text-decoration: none;
+  }
+
+  html .text-md-left {
+    text-align: left;
+  }
+
+  html .text-md-right {
+    text-align: right;
+  }
+
+  html .text-md-center {
+    text-align: center;
+  }
+
+  html .text-md-nowrap {
+    white-space: nowrap;
+  }
+
+  html .text-md-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html .text-md-lowercase {
+    text-transform: lowercase;
+  }
+
+  html .text-md-uppercase {
+    text-transform: uppercase;
+  }
+
+  html .text-md-capitalize {
+    text-transform: capitalize;
+  }
+
+  html .font-md-weight-bold {
+    font-weight: bold;
+  }
+
+  html .font-md-weight-normal {
+    font-weight: normal;
+  }
+
+  html .font-md-weight-light {
+    font-weight: light;
+  }
+
+  html .font-md-italic {
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  html .text-lg-justify {
+    text-align: justify;
+  }
+
+  html .text-decoration-lg-none {
+    text-decoration: none;
+  }
+
+  html .text-lg-left {
+    text-align: left;
+  }
+
+  html .text-lg-right {
+    text-align: right;
+  }
+
+  html .text-lg-center {
+    text-align: center;
+  }
+
+  html .text-lg-nowrap {
+    white-space: nowrap;
+  }
+
+  html .text-lg-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html .text-lg-lowercase {
+    text-transform: lowercase;
+  }
+
+  html .text-lg-uppercase {
+    text-transform: uppercase;
+  }
+
+  html .text-lg-capitalize {
+    text-transform: capitalize;
+  }
+
+  html .font-lg-weight-bold {
+    font-weight: bold;
+  }
+
+  html .font-lg-weight-normal {
+    font-weight: normal;
+  }
+
+  html .font-lg-weight-light {
+    font-weight: light;
+  }
+
+  html .font-lg-italic {
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 70rem) {
+  html .text-xl-justify {
+    text-align: justify;
+  }
+
+  html .text-decoration-xl-none {
+    text-decoration: none;
+  } 
+
+  html .text-xl-left {
+    text-align: left;
+  }
+
+  html .text-xl-right {
+    text-align: right;
+  }
+
+  html .text-xl-center {
+    text-align: center;
+  }
+
+  html .text-xl-nowrap {
+    white-space: nowrap;
+  }
+
+  html .text-xl-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html .text-xl-lowercase {
+    text-transform: lowercase;
+  }
+
+  html .text-xl-uppercase {
+    text-transform: uppercase;
+  }
+
+  html .text-xl-capitalize {
+    text-transform: capitalize;
+  }
+
+  html .font-xl-weight-bold {
+    font-weight: bold;
+  }
+
+  html .font-xl-weight-normal {
+    font-weight: normal;
+  }
+
+  html .font-xl-weight-light {
+    font-weight: light;
+  }
+
+  html .font-xl-italic {
+    font-style: italic;
+  }
+}

@@ -21,7 +21,7 @@ const Work = () => (
             </main>
             <p>Archive of my JavaScript projects.</p>
             <ul className="badges">
-              <li>Plain JavaScript</li>
+              <li>JavaScript</li>
               <li>ES6</li>
             </ul>
           </header>
@@ -31,7 +31,7 @@ const Work = () => (
                 <MdLink />
               </span>
               <a
-                href="https://github.com/tpkahlon/javascript-projects#javascript-projects-vanillagatsbyangularjs"
+                href="https://github.com/tpkahlon/javascript"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,36 +74,6 @@ const Work = () => (
         </div>
         <div className="card card--3">
           <header>
-            <h2 className="h3">React</h2>
-            <main class="card__img--bg">
-              <img
-                className="card__img"
-                src="https://api.iconify.design/logos:react.svg"
-                alt="React Projects"
-              />
-            </main>
-            <p>Archive of my React projects.</p>
-            <ul className="badges">
-              <li>ReactJS</li>
-            </ul>
-          </header>
-          <footer>
-            <div className="buttons">
-              <span className="button__icon">
-                <MdLink />
-              </span>
-              <a
-                href="https://github.com/tpkahlon/react-projects#react-projects"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Source
-              </a>
-            </div>
-          </footer>
-        </div>
-        <div className="card card--4">
-          <header>
             <h2 className="h3">JS30</h2>
             <main class="card__img--bg">
               <img
@@ -123,7 +93,7 @@ const Work = () => (
                 <MdLink />
               </span>
               <a
-                href="https://github.com/tpkahlon/javascript30#javascript30"
+                href="https://github.com/tpkahlon/javascript30"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -132,14 +102,14 @@ const Work = () => (
             </div>
           </footer>
         </div>
-        <div className="card card--5">
+        <div className="card card--4">
           <header>
             <h2 className="h3">JS20</h2>
             <main class="card__img--bg">
               <img
                 className="card__img"
                 src="https://api.iconify.design/logos:javascript.svg"
-                alt="JavaScript30.com Projects"
+                alt="VanillaWebProjects.com Projects"
               />
             </main>
             <p>Archive of my VanillaWebProjects.com projects.</p>

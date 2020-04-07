@@ -43,13 +43,13 @@
 
 ## freeCodeCamp (Responsive Web Design Projects)
 
-| Project Title              | Project Link                                                |
-| -------------------------- | ----------------------------------------------------------- |
-| Tribute 📝                 | [View Demo](https://inspiring-allen-29579f.netlify.com/)    |
-| Survey Form 📝             | [View Demo](https://frosty-mirzakhani-b996a1.netlify.com/)  |
-| Product Landing 📝         | [View Demo](https://gallant-archimedes-037b77.netlify.com/) |
-| Technical Documentation 📝 | **Pending**                             |
-| Personal Portfolio 🔥📝    | [View Demo](https://lucid-hopper-f9ed06.netlify.com/)       |
+| Project Title              | Project Link                                                   |
+| -------------------------- | -------------------------------------------------------------- |
+| Tribute 📝                 | [View Demo](https://inspiring-allen-29579f.netlify.com/)       |
+| Survey Form 📝             | [View Demo](https://frosty-mirzakhani-b996a1.netlify.com/)     |
+| Product Landing 📝         | [View Demo](https://tpkahlon.github.com/product-landing-page/) |
+| Technical Documentation 📝 | **Pending**                                                    |
+| Personal Portfolio 🔥📝    | [View Demo](https://lucid-hopper-f9ed06.netlify.com/)          |
 
 ## HTML
 

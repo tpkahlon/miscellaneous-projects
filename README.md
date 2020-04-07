@@ -43,13 +43,13 @@
 
 ## freeCodeCamp (Responsive Web Design Projects)
 
-| Project Title              | Project Link                    |
-| -------------------------- | ------------------------------- |
-| Tribute 📝                 | **Download Repository locally** |
-| Survey Form 📝             | **Download Repository locally** |
-| Product Landing 📝         | **Download Repository locally** |
-| Technical Documentation 📝 | **Download Repository locally** |
-| Personal Portfolio 📝      | **Download Repository locally** |
+| Project Title              | Project Link                                                |
+| -------------------------- | ----------------------------------------------------------- |
+| Tribute 📝                 | [View Demo](https://inspiring-allen-29579f.netlify.com/)    |
+| Survey Form 📝             | [View Demo](https://frosty-mirzakhani-b996a1.netlify.com/)  |
+| Product Landing 📝         | [View Demo](https://gallant-archimedes-037b77.netlify.com/) |
+| Technical Documentation 📝 | **Pending**                             |
+| Personal Portfolio 🔥📝    | [View Demo](https://lucid-hopper-f9ed06.netlify.com/)       |
 
 ## HTML
 
@@ -57,7 +57,6 @@
 | ------------- | ------------------------------------------------------------- |
 | MFB 📝        | [View Demo](https://tender-volhard-b4c7ce.netlify.com/)       |
 | Minh Gram 📝  | [View Demo](https://priceless-aryabhata-d89266.netlify.com/)  |
-| Portfolio 🔥  | [View Demo](https://lucid-hopper-f9ed06.netlify.com/)         |
 | Style Shop 📝 | [View Demo](https://gracious-stonebraker-011ba3.netlify.com/) |
 
 ## CSS

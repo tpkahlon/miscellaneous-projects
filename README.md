@@ -45,26 +45,26 @@
 
 | Project Title              | Project Link                                                                                   |
 | -------------------------- | ---------------------------------------------------------------------------------------------- |
-| Tribute 📝                 | [View Demo](https://inspiring-allen-29579f.netlify.com/)                                       |
-| Survey Form 📝             | [View Demo](https://frosty-mirzakhani-b996a1.netlify.com/)                                     |
+| Tribute 📝                 | [View Demo](https://fcctributepage.netlify.app)                                                |
+| Survey Form 📝             | [View Demo](https://fccsurveyform.netlify.app)                                                 |
 | Product Landing 📝         | [View Demo](https://tpkahlon.github.io/miscellaneous-projects/product-landing-page/index.html) |
 | Technical Documentation 📝 | **Pending**                                                                                    |
 | Personal Portfolio 🔥📝    | [View Demo](https://tejkahlon.netlify.app)                                                     |
 
 ## HTML
 
-| Project Title | Project Link                                                  |
-| ------------- | ------------------------------------------------------------- |
-| MFB 📝        | [View Demo](https://tender-volhard-b4c7ce.netlify.com/)       |
-| Minh Gram 📝  | [View Demo](https://priceless-aryabhata-d89266.netlify.com/)  |
-| Style Shop 📝 | [View Demo](https://gracious-stonebraker-011ba3.netlify.com/) |
+| Project Title | Project Link                                     |
+| ------------- | ------------------------------------------------ |
+| MFB 📝        | [View Demo](https://markhamfoodbank.netlify.app) |
+| Minh Gram 📝  | [View Demo](https://minhgram.netlify.app)        |
+| Style Shop 📝 | [View Demo](https://styleshop.netlify.app)       |
 
 ## CSS
 
 | Project Title              | Project Link                                              |
 | -------------------------- | --------------------------------------------------------- |
-| CSS Grid 📝                | [View Demo](https://laughing-davinci-cd3731.netlify.com/) |
-| CSS Icons 📝               | [View Demo](https://keen-rosalind-e2a771.netlify.com/)    |
+| CSS Grid 📝                | [View Demo](https://cssgridlayout.netlify.app)            |
+| CSS Icons 📝               | [View Demo](https://cssshapes.netlify.app)                |
 | Responsive Grid Systems 📝 | [View Demo](https://xenodochial-jang-4643e5.netlify.com/) |
-| Code Shortcuts 🔥          | [View Demo](https://kind-hamilton-2c37fc.netlify.com/)    |
+| Code Shortcuts 🔥          | [View Demo](https://jshacks.netlify.app)                  |
 | Minhimum 🔥                | **Download Repository locally**                           |

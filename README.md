@@ -61,10 +61,10 @@
 
 ## CSS
 
-| Project Title              | Project Link                                              |
-| -------------------------- | --------------------------------------------------------- |
-| CSS Grid 📝                | [View Demo](https://cssgridlayout.netlify.app)            |
-| CSS Icons 📝               | [View Demo](https://cssshapes.netlify.app)                |
-| Responsive Grid Systems 📝 | [View Demo](https://xenodochial-jang-4643e5.netlify.com/) |
-| Code Shortcuts 🔥          | [View Demo](https://jshacks.netlify.app)                  |
-| Minhimum 🔥                | **Download Repository locally**                           |
+| Project Title              | Project Link                                           |
+| -------------------------- | ------------------------------------------------------ |
+| CSS Grid 📝                | [View Demo](https://cssgridlayout.netlify.app)         |
+| CSS Icons 📝               | [View Demo](https://cssshapes.netlify.app)             |
+| Responsive Grid Systems 📝 | [View Demo](https://responsivegridsystems.netlify.app) |
+| Code Shortcuts 🔥          | [View Demo](https://jshacks.netlify.app)               |
+| Minhimum 🔥                | **Download Repository locally**                        |

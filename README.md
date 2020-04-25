@@ -49,7 +49,7 @@
 | Survey Form 📝             | [View Demo](https://frosty-mirzakhani-b996a1.netlify.com/)                                     |
 | Product Landing 📝         | [View Demo](https://tpkahlon.github.io/miscellaneous-projects/product-landing-page/index.html) |
 | Technical Documentation 📝 | **Pending**                                                                                    |
-| Personal Portfolio 🔥📝    | [View Demo](https://lucid-hopper-f9ed06.netlify.com/)                                          |
+| Personal Portfolio 🔥📝    | [View Demo](https://tejkahlon.netlify.app)                                                     |
 
 ## HTML
 

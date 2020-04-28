@@ -5,10 +5,10 @@ import {
   FaWhatsapp,
   FaGithub,
   FaBehanceSquare,
-  FaTwitterSquare,
+  FaFileCode,
   FaBlogger,
   FaDev,
-  FaCopyright
+  FaCopyright,
 } from "react-icons/fa";
 
 const Contact = () => (
@@ -72,11 +72,11 @@ const Contact = () => (
             <li className="contact__list-item">
               <a
                 className="text-decoration-none"
-                href="https://twitter.com/kahlontej"
+                href="https://www.dropbox.com/s/zfc62n6wzujs9qn/Resume.pdf?dl=0"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <FaTwitterSquare />
+                <FaFileCode />
               </a>
             </li>
             <li className="contact__list-item">
@@ -92,7 +92,7 @@ const Contact = () => (
             <li className="contact__list-item">
               <a
                 className="text-decoration-none"
-                href="https://lucid-hopper-f9ed06.netlify.com/"
+                href="https://tejkahlon.netlify.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -102,7 +102,7 @@ const Contact = () => (
             <li className="contact__list-item">
               <a
                 className="text-decoration-none"
-                href="https://quirky-benz-c762ef.netlify.com/"
+                href="https://satrangi.netlify.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >

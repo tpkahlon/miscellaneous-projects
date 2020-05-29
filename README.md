@@ -10,15 +10,16 @@
 
 ## Boilerplate
 
-| Project Title         | Project Link                    |
-| --------------------- | ------------------------------- |
-| Create-React-App      | **Download Repository locally** |
-| Minhsify              | **Download Repository locally** |
-| NPM Build Boilerplate | **Download Repository locally** |
-| React Starter         | **Download Repository locally** |
-| Reactstrap            | **Download Repository locally** |
-| Sassify               | **Download Repository locally** |
-| Web App               | **Download Repository locally** |
+| Project Title                       | Project Link                    |
+| ----------------------------------- | ------------------------------- |
+| Create-React-App                    | **Download Repository locally** |
+| Minhsify                            | **Download Repository locally** |
+| NPM Build Boilerplate               | **Download Repository locally** |
+| React Starter                       | **Download Repository locally** |
+| Reactstrap                          | **Download Repository locally** |
+| Sassify                             | **Download Repository locally** |
+| Web App                             | **Download Repository locally** |
+| Bareek (Bootstrap/Create React App) | **Download Repository locally** |
 
 ## Guides
 

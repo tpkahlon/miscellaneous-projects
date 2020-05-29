@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$font: 'Open Sans';
+
+html {
+  font-size: 16px;
+  font-family: $font, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.app {
+  height: 100vh;
+}
+
+.logo {
+  max-width: 10rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 .4rem .2rem rgba(0, 0, 0, 0.15);
+}

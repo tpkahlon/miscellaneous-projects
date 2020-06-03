@@ -10,37 +10,38 @@
 
 ## Boilerplate
 
-| Project Title                       | Project Link                    |
-| ----------------------------------- | ------------------------------- |
-| Create-React-App                    | **Download Repository locally** |
-| Minhsify                            | **Download Repository locally** |
-| NPM Build Boilerplate               | **Download Repository locally** |
-| React Starter                       | **Download Repository locally** |
-| Reactstrap                          | **Download Repository locally** |
-| Sassify                             | **Download Repository locally** |
-| Web App                             | **Download Repository locally** |
-| Bareek (Bootstrap/Create React App) | **Download Repository locally** |
+| Project Title                       | Project Link      |
+| ----------------------------------- | ----------------- |
+| Create-React-App                    | **Clone locally** |
+| Minhsify                            | **Clone locally** |
+| NPM Build Boilerplate               | **Clone locally** |
+| React Starter                       | **Clone locally** |
+| Reactstrap                          | **Clone locally** |
+| Sassify                             | **Clone locally** |
+| Web App                             | **Clone locally** |
+| Bareek (Bootstrap/Create React App) | **Clone locally** |
+| Create React Base                   | **Clone locally** |
 
 ## Guides
 
-| Project Title | Project Link                    |
-| ------------- | ------------------------------- |
-| Guides        | **Download Repository locally** |
+| Project Title | Project Link      |
+| ------------- | ----------------- |
+| Guides        | **Clone locally** |
 
 ## Others
 
-| Project Title   | Project Link                    |
-| --------------- | ------------------------------- |
-| .zshrc          | **Download Repository locally** |
-| Merge Conflicts | **Download Repository locally** |
-| source-files    | **Download Repository locally** |
+| Project Title   | Project Link      |
+| --------------- | ----------------- |
+| .zshrc          | **Clone locally** |
+| Merge Conflicts | **Clone locally** |
+| source-files    | **Clone locally** |
 
 ## Full-Stack Applications
 
-| Project Title       | Project Link                    |
-| ------------------- | ------------------------------- |
-| MERN App            | **Download Repository locally** |
-| My Kitchen MERN App | **Download Repository locally** |
+| Project Title       | Project Link      |
+| ------------------- | ----------------- |
+| MERN App            | **Clone locally** |
+| My Kitchen MERN App | **Clone locally** |
 
 ## freeCodeCamp (Responsive Web Design Projects)
 
@@ -67,5 +68,5 @@
 | CSS Grid                | [View Demo](https://cssgridlayout.netlify.app)         |
 | CSS Icons               | [View Demo](https://cssshapes.netlify.app)             |
 | Code Shortcuts          | [View Demo](https://jshacks.netlify.app)               |
-| Minhimum                | **Download Repository locally**                        |
+| Minhimum                | **Clone locally**                                      |
 | Responsive Grid Systems | [View Demo](https://responsivegridsystems.netlify.app) |
